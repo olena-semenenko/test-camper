@@ -1,10 +1,10 @@
 import React from 'react';
 import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
-import css from './WelcomeSection.module.css';
+import css from './Header.module.css';
 import Section from 'shared/Section/Section';
 
-const WelcomeSection = () => {
+const Header = () => {
   return (
     <Section className={css.nav}>
       <Logo />
@@ -13,4 +13,4 @@ const WelcomeSection = () => {
   );
 };
 
-export default WelcomeSection;
+export default Header;
