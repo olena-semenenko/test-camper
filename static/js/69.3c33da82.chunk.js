@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_camper=self.webpackChunktest_camper||[]).push([[69],{69:function(e,t,a){a.r(t);a(791);var c=a(184);t.default=function(){return(0,c.jsx)("div",{children:"CatalogPage"})}}}]);
+//# sourceMappingURL=69.3c33da82.chunk.js.map
