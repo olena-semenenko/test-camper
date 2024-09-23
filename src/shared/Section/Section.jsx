@@ -1,7 +1,12 @@
-import React from 'react';
+import clsx from 'clsx';
+import css from './Section.module.css';
 
-const Section = () => {
-  return <div>Section</div>;
+const Section = ({ children, className }) => {
+  return (
+    <section className={clsx(css.section, { [className]: className })}>
+      {children}
+    </section>
+  );
 };
 
 export default Section;
